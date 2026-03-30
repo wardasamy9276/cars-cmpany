@@ -18,7 +18,7 @@ function App() {
       <section id="center">
         <div>
           <Routes>
-            <Route path="/cars-cmpany" element={<Home />} />
+            <Route path="/cars-cmpany/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/loginpage" element={<LoginPage />} />
